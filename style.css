@@ -83,7 +83,6 @@ ul li::before {
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  background-image: url(/photos/unchecked.svg);
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -114,4 +113,9 @@ ul li span {
 
 ul li span:hover {
   background: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+
+
 }
